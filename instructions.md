@@ -15,7 +15,7 @@ Each driver may only handle packages that satisfy *all* of their rules. If a dri
 
 ## Endpoints
 
-### `POST /assign`
+### `POST /assign`
 
 **Purpose**: Assign up to `max_per_driver` packages to each driver and record an initial status of `assigned` in DynamoDB.
 
@@ -54,7 +54,7 @@ Behavior:
 
 ---
 
-### `POST /update`
+### `POST /update`
 
 **Purpose**: Update the delivery status of a specific driver/package pair in DynamoDB.
 
