@@ -1,0 +1,7 @@
+[project]
+name = "logistix"
+version = "0.1.0"
+description = "Last-mile delivery assignment service"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
