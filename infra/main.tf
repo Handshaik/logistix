@@ -12,5 +12,6 @@ provider "aws" {
   
   endpoints {
     s3 = "http://localhost:4566"
+    dynamodb = "http://localhost:4566"
   }
 }
